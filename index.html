@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Check In Cherish redesign mockup</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <p>Weekday Stay Offer — Save ৳1000</p>
+    <nav aria-label="Quick contact">
+      <a href="tel:01717758014">01717-758014</a>
+      <a href="tel:01817722572">01817-722572</a>
+      <a href="#contact">WhatsApp support</a>
+    </nav>
+  </header>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="Check In Cherish home">
+      <span class="brand-mark">CiC</span>
+      <span>Check In Cherish</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div id="nav-links" class="nav-links">
+      <a href="#rooms">Rooms</a>
+      <a href="#resorts">Resorts</a>
+      <a href="#journey">Process</a>
+      <a href="#policies">Policies</a>
+      <a href="#contact" class="button button-small">Contact</a>
+    </div>
+  </nav>
+
+  <main id="home">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Hotel & room booking in Bangladesh</p>
+        <h1>Find a peaceful Sajek stay without the booking stress.</h1>
+        <p class="lead">A modern redesign concept for Check In Cherish that brings resort discovery, room availability, trust signals, policies, and support into one guided booking experience.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="button">Check availability</a>
+          <a href="#site-map" class="button button-ghost">View whole-site plan</a>
+        </div>
+      </div>
+      <form id="booking" class="booking-card" aria-label="Room search">
+        <h2>Plan your stay</h2>
+        <label>Check-in <input type="date" name="checkin" /></label>
+        <label>Check-out <input type="date" name="checkout" /></label>
+        <label>Guests <input type="number" min="1" value="2" name="guests" /></label>
+        <label>Destination
+          <select name="destination">
+            <option>Sajek Valley</option>
+            <option>Megh Pahar Eco Resort</option>
+            <option>Chondrika Eco Resort</option>
+            <option>Zobuk Resort Sajek</option>
+          </select>
+        </label>
+        <button type="button" class="button full-width">Search rooms</button>
+      </form>
+    </section>
+
+    <section class="section-shell stats-grid" aria-label="Trust highlights">
+      <article><strong>14+</strong><span>Published room options</span></article>
+      <article><strong>3</strong><span>Featured Sajek resorts</span></article>
+      <article><strong>24/7</strong><span>Phone & WhatsApp support</span></article>
+      <article><strong>Secure</strong><span>Clear payment and refund guidance</span></article>
+    </section>
+
+    <section id="rooms" class="section-shell section-heading">
+      <p class="eyebrow">Available rooms</p>
+      <h2>Room cards redesigned for fast comparison.</h2>
+      <div class="room-grid">
+        <article class="room-card">
+          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80" alt="Warm wooden resort room">
+          <div><span class="tag">Megh Pahar</span><h3>Room 101</h3><p>Wooden cabin room with cozy lighting, ideal for couples or small families.</p><strong>৳5,000 / night</strong></div>
+        </article>
+        <article class="room-card">
+          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80" alt="Blue bedding in modern hotel room">
+          <div><span class="tag">Megh Pahar</span><h3>Room 302</h3><p>Nature-facing room with booking rules surfaced before checkout.</p><strong>৳4,500 / night</strong></div>
+        </article>
+        <article class="room-card">
+          <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=80" alt="Boutique resort bedroom">
+          <div><span class="tag">Zobuk Resort</span><h3>Tui</h3><p>Premium, quiet stay positioned for views, photos, and relaxation.</p><strong>৳3,500 / night</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="resorts" class="split section-shell">
+      <div>
+        <p class="eyebrow">Resorts & destinations</p>
+        <h2>Make Sajek the central discovery path.</h2>
+        <p>The current site groups rooms under Sajek resorts. This concept keeps that structure but adds destination storytelling, filters, and resort comparison before the room listing.</p>
+      </div>
+      <div class="resort-list">
+        <article><h3>Megh Pahar Eco Resort</h3><p>Six rooms, eco-resort rules, family child policy, cancellation and date-change details.</p></article>
+        <article><h3>Chondrika Eco Resort</h3><p>Four rooms with simplified gallery, amenities, and stay guidelines.</p></article>
+        <article><h3>Zobuk Resort Sajek</h3><p>Four rooms highlighting calm environment, views, support, and easy access.</p></article>
+      </div>
+    </section>
+
+    <section id="journey" class="section-shell section-heading">
+      <p class="eyebrow">Booking journey</p>
+      <h2>A clearer path from interest to confirmation.</h2>
+      <ol class="timeline">
+        <li><strong>Search</strong><span>Pick date, guest count, services, and Sajek resort.</span></li>
+        <li><strong>Compare</strong><span>Scan room cards by price, resort, capacity, and cancellation terms.</span></li>
+        <li><strong>Confirm</strong><span>Submit customer details and payment instructions in one focused checkout.</span></li>
+        <li><strong>Support</strong><span>Receive confirmation by email, WhatsApp, or SMS with support contacts.</span></li>
+      </ol>
+    </section>
+
+    <section id="policies" class="section-shell policy-grid">
+      <article><h3>Cancellation</h3><p>Show date-change, no-show, refund timeline, and holiday booking rules before payment.</p></article>
+      <article><h3>Privacy</h3><p>Explain personal data, payment security, retention, and user rights in plain language.</p></article>
+      <article><h3>Terms</h3><p>Present eligibility, service-provider limits, travel documents, and acceptable use.</p></article>
+      <article><h3>Disclaimer</h3><p>Clarify booking availability, third-party suppliers, and information accuracy.</p></article>
+    </section>
+
+    <section id="site-map" class="section-shell sitemap">
+      <p class="eyebrow">Whole-site redesign map</p>
+      <h2>Pages covered by the mockup</h2>
+      <div class="sitemap-columns">
+        <ul><li>Home / room search</li><li>About Check In Cherish</li><li>Contact and support form</li><li>Available Rooms shop</li></ul>
+        <ul><li>Sajek destination hub</li><li>Megh Pahar Eco Resort</li><li>Chondrika Eco Resort</li><li>Zobuk Resort Sajek</li></ul>
+        <ul><li>Room detail template</li><li>Privacy Policy</li><li>Terms & Conditions</li><li>Cancel & Refund Policy</li><li>Disclaimer</li></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer section-shell">
+    <div><h2>Ready to turn this into a redesign?</h2><p>Next steps: convert this mockup into WordPress templates, connect live room data, and replace placeholder imagery with approved resort photography.</p></div>
+    <address>
+      Dhaka: Shams Parasol, Gulshan-1<br />
+      Sylhet: Elegant Shopping Mall, Zindabazar<br />
+      Email: <a href="mailto:query@checkincherish.com">query@checkincherish.com</a>
+    </address>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
